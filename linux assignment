@@ -1,0 +1,70 @@
+1.	If we are in the directory X and we are running rmdir X being in that directory X. Will this command successfully removes the directory or not. 
+= No, we should come out of the directory to remove that directory.
+2.	What are daemons? 
+= A daemon  is a Linux or UNIX program that runs in the background. Almost all daemons have names that end with the letter "d". For example, httpd the daemon that handles the Apache server, or, sshd which handles SSH remote access connections
+3.	What are the different modes when using VI editor?
+= While using the VI editor as a text editor there are two modes.
+a)	Command mode b) Insert mode
+ 
+4.	What is a grep command?
+=Grep stands for globally search for regular expression and print out is a filter mechanism in which the command helps to search for the pattern as the regular expression and gives the line and file that contain those pattern.
+5.	 What are the contents of /usr/local?
+=It contains Locally installed software.
+
+6.	 How cd ~, cd / and cd - are different from each other?
+Cd ~ command change current directory to user’s home
+cd- command change current directory to the directory you were last in
+cd/ command take you to the root directory.
+
+7.	 Which command is used to display the path of the current working directory?
+= Pwd
+
+8.	 What is the command to run a program with elevated permissions?
+=Sudo
+9.	How to switch to superuser (root) with elevated permissions?
+
+10) Which command to switch to the root user?
+11) Which command is used to switch from superuser to normal user? 
+= Su command is used
+12) Which command is used to clear the terminal? 
+= clear
+13) Which command is used to create multiple directories simultaneously?
+= MKdir
+14) Which command is used to move to parent directory? 
+=cd-
+15) Which command is used to display the contents of subdirectories?
+=ls
+16) Which command is used to display the list of content in reverse order?
+=-r
+17) Which command is used to display the contents of the parent directory? 
+18) How to remove directory along with subdirectories? 
+= rm -r directory
+18) How to move multiple files of the same extension to a different directory?
+ 23. Which command is used to list the name of files starting from any particular alphabet or string? 
+ls abc*
+24. How to move multiple files of the same extension to a different directory? 
+25. What command is used to change the ownership of a file? 
+= chown
+26. How to delete a directory forcefully? 
+=rm -rf dir
+27. How to forcefully stop a process which is running in the background?
+ 28. Which command is used to display the current username? 
+= whoami
+29. How to determine the type of a file? 
+=file
+
+30. Which command is used to create a new empty file?
+= touch 
+ 31. Which command is used to display all the file names along with their types of the current directory?
+Ls -f
+ 33. How to delete a directory recursively i.e. it asks before the deletion on subdirectories?
+ 34. Which command shows the users that are logged in?
+= w
+ 35. Which command is used to rename the file?
+Rename
+36. What is the difference between mv and rename? 
+Mv will both rename and move the file while rename only rename the file
+37. Which command is used to change the permissions of a file?
+= chmod
+ 38. What command is used to show how long it's been since the server was rebooted? 
+= who command and last command
